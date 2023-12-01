@@ -166,14 +166,20 @@ header .nav-link {
 }
 
 /* Projects Sections */
-#projects .card {
-  max-width: 17rem;
+#projects .img-wrapper {
+  width: 100%;
 }
 
-#projects .card img {
-  /* object-fit: cover; */
-  max-width: 100%;
-  height: auto;
+#projects .text h2 {
+  font-size: 25px;
+}
+
+#projects .img-wrapper img {
+  border-radius: 1rem;
+}
+
+#projects .card {
+  padding: 20px;
 }
 
 /* Tools Section */
