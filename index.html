@@ -1,296 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joshua Cordova | Full Stack Web Developer</title>
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joshua Cordova | Full Stack Web Developer</title>
-  <!-- Bootstrap Link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- External Stylesheet -->
-  <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-
-  <div class="container w-75 mx-auto p-0 p-lg-4">
-    <header class="mb-5 mb-md-5 px-0 px-lg-3 pb-xl-5">
-      <div id="branding" class="fs-2 text-center my-4">
-        <a href="https://cordovajoshua.github.io/webportfolio/">Joshua Cordova</a>
-        <!-- <p>Joshua Cordova</p> -->
-      </div>
-      <nav class="navbar navbar-expand-lg border-top border-bottom mt-3">
-        <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#landing">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#tools">Tools</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#contact">Contact</a>
-              </li>
-            </ul>
-
+  <body>
+    <div class="container w-75 mx-auto p-0 p-lg-4">
+      <header class="mb-5 mb-md-5 px-0 px-lg-3 pb-xl-5">
+        <div id="branding" class="fs-2 text-center my-4">
+          <a href="https://cordovajoshua.github.io/webportfolio/"
+            >Joshua Cordova</a
+          >
+          <!-- <p>Joshua Cordova</p> -->
+        </div>
+        <nav class="navbar navbar-expand-lg border-top border-bottom mt-3">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#landing">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-    <!-- Landing Section -->
-    <section id="landing" class="pt-1 pt-md-5 pb-5 mb-5 px-0 pt-xl-5 p-lg-5">
-      <div class="row">
-        <div class="col-12 col-xl-6 text-center text-xl-start order-2 order-xl-1 mt-4 mt-xl-0">
-          <h1 class="fs-1 fw-bold mb-4">Hello! I'm Joshua</h1>
-          <h2 class="fs-2 fw-bold mb-4" id="title">Full Stack Web Developer</h2>
-          <p class="mb-3">I'm a passionate web developer with a love for crafting elegant and functional websites. My
-            journey in the world of web development began last 5 months when I was working as an IT Operations Support.
-            I figured that I have a passion in coding and now I am pursuing it by attending a coding bootcamp with
-            Zuitt.</p>
-          <p class="mb-3">I specialize in creating responsive and user-friendly websites, transforming ideas into
-            interactive digital experiences. Whether it's building an online presence for a small business or developing
-            complex web applications, I thrive on turning concepts into reality.</p>
-        </div>
-        <div class="col-12 col-xl-6 text-center order-1 order-xl-2">
-          <img src="./images/profile.svg" id="img-landing" alt="" class="rounded-circle">
-        </div>
-      </div>
-    </section>
-
-    <!-- Project Section -->
-    <section id="projects" class="pb-5 pt-md-4 p-lg-5 mb-5">
-      <h1 class="fs-3 fw-bold mb-4 text-decoration-underline">Projects</h1>
-      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 gap-md-2">
-        <!-- Project 1 -->
-
-        <div class="card">
-          <img src="./images/project-landing.png" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title text-center fw-bold fs-5">Landing Page</h5>
-            <p class="card-text text-center">I made this webpage to practice my frontend skills using both CSS Flexbox
-              and CSS Grid.</p>
-          </div>
-          <div class="card-body d-flex gap-2 justify-content-center">
-            <a href="https://codepen.io/joshcordova/pen/JjwjNjg"
-              class="btn btn-sm btn-primary d-flex align-items-center" target="_blank">View Code</a>
-            <a href="https://codepen.io/joshcordova/full/JjwjNjg"
-              class="btn btn-sm btn-secondary d-flex align-items-center" target="_blank">Live
-              Demo</a>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-
-        <div class="card">
-          <img src="./images/project-documentation.png" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title text-center fw-bold fs-5">Documentation Page</h5>
-            <p class="card-text text-center">I made this webpage to practice making two column layout using CSS Grid.
+      <!-- Landing Section -->
+      <section id="landing" class="pt-1 pt-md-5 pb-5 mb-5 px-0 pt-xl-5 p-lg-5">
+        <div class="row">
+          <div
+            class="col-12 col-xl-6 text-center text-xl-start order-2 order-xl-1 mt-4 mt-xl-0"
+          >
+            <h1 class="fs-1 fw-bold mb-4">Hello! I'm Joshua</h1>
+            <h2 class="fs-2 fw-bold mb-4" id="title">
+              Full Stack Web Developer
+            </h2>
+            <p class="mb-3">
+              I'm a passionate web developer with a love for crafting elegant
+              and functional websites.
+            </p>
+            <p class="mb-3">
+              I specialize in creating responsive and user-friendly websites,
+              transforming ideas into interactive digital experiences. Whether
+              it's building an online presence for a small business or
+              developing complex web applications, I thrive on turning concepts
+              into reality.
             </p>
           </div>
-          <div class="card-body d-flex gap-2 justify-content-center">
-            <a href="https://codepen.io/joshcordova/pen/vYvYjLP"
-              class="btn btn-sm btn-primary d-flex align-items-center" target="_blank">View Code</a>
-            <a href="https://codepen.io/joshcordova/full/vYvYjLP"
-              class="btn btn-sm btn-secondary d-flex align-items-center" target="_blank">Live
-              Demo</a>
+          <div class="col-12 col-xl-6 text-center order-1 order-xl-2">
+            <img
+              src="./images/profile.svg"
+              id="img-landing"
+              alt=""
+              class="rounded-circle"
+            />
           </div>
         </div>
+      </section>
 
-        <!-- Project 3 -->
-
-        <div class="card">
-          <img src="./images/project-tribute.png" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title text-center fw-bold fs-5">Tribute Page</h5>
-            <p class="card-text text-center">I made this webpage to pay tribute to my favorite basketball player.</p>
-          </div>
-          <div class="card-body d-flex gap-2 justify-content-center">
-            <a href="https://codepen.io/joshcordova/pen/bGRGYRN"
-              class="btn btn-sm btn-primary d-flex align-items-center" target="_blank">View Code</a>
-            <a href="https://codepen.io/joshcordova/full/bGRGYRN"
-              class="btn btn-sm btn-secondary d-flex align-items-center" target="_blank">Live
-              Demo</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Tools Section -->
-    <section id="tools" class="pb-5 pt-md-4 px-0 p-lg-5 mb-5">
-      <h1 class="fs-3 fw-bold mb-4 text-decoration-underline">Tools</h1>
-      <div class="d-flex flex-wrap flex-column flex-md-row gap-2">
-        <!-- HTML -->
-
-        <div class="card bg-dark text-white px-md-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">HTML</h5>
-            <i class="fa-brands fa-html5"></i>
-          </div>
-        </div>
-        <!-- CSS -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">CSS</h5>
-            <i class="fa-brands fa-css3-alt"></i>
-          </div>
-        </div>
-        <!-- Bootstrap -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">Bootstrap</h5>
-            <i class="fa-brands fa-bootstrap"></i>
-          </div>
-        </div>
-        <!-- Javascript -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">JavaScript</h5>
-            <i class="fa-brands fa-square-js"></i>
-          </div>
-        </div>
-        <!-- React -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">React</h5>
-            <i class="fa-brands fa-react"></i>
-          </div>
-        </div>
-        <!-- NodeJS -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">NodeJS</h5>
-            <i class="fa-brands fa-node"></i>
-          </div>
-        </div>
-        <!-- Git -->
-        <div class="card bg-dark text-white px-lg-3">
-          <div class="card-body d-flex justify-content-center align-items-center gap-3 pt-4">
-            <h5 class="fw-bold">Git</h5>
-            <i class="fa-brands fa-git-alt"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="pb-5 pt-md-4 px-0 p-lg-5 mb-5">
-      <div class="row">
-        <!-- Text Column -->
-        <div class="col-12 col-md-6">
-          <p class="fw-bold fs-3">Contact Me</p>
-          <div class="d-flex flex-column mt-4">
-            <!-- Address -->
-            <div class="d-flex gap-3 align-items-center mb-4">
-              <i class="fa-solid fa-location-dot"></i>
-              <p>Olongapo City</p>
+      <!-- Project Section -->
+      <section id="projects" class="pb-5 pt-md-4 p-lg-5 mb-5">
+        <h1 class="fs-3 fw-bold mb-4 text-decoration-underline">Projects</h1>
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 gap-md-2"
+        >
+          <!-- Project 1 -->
+          <div class="card">
+            <img src="./images/project-ecommerce.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold fs-5">E-commerce</h5>
+              <p class="card-text text-center">
+                E-commerce website build with MERN stack.
+              </p>
             </div>
-            <!-- Email -->
-            <div class="d-flex gap-3 align-items-center mb-4">
-              <i class="fa-solid fa-envelope"></i>
-              <p>cordovajoshuam118@gmail.com</p>
+            <div class="card-body d-flex gap-2 justify-content-center">
+              <a
+                href="https://github.com/cordovajoshua/siklista-client"
+                class="btn btn-sm btn-primary d-flex align-items-center"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="http://zuitt-bootcamp-prod-328-6144-cordova.s3-website.us-east-1.amazonaws.com/"
+                class="btn btn-sm btn-secondary d-flex align-items-center"
+                target="_blank"
+                >Live Demo</a
+              >
             </div>
           </div>
-          <!-- Phone -->
-          <div class="d-flex gap-3 align-items-center">
-            <i class="fa-solid fa-phone"></i>
-            <p>09263191103</p>
+          <!-- Project 2 -->
+
+          <div class="card">
+            <img src="./images/project-landing.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold fs-5">Landing Page</h5>
+              <p class="card-text text-center">
+                I made this webpage to practice my frontend skills using both
+                CSS Flexbox and CSS Grid.
+              </p>
+            </div>
+            <div class="card-body d-flex gap-2 justify-content-center">
+              <a
+                href="https://codepen.io/joshcordova/pen/JjwjNjg"
+                class="btn btn-sm btn-primary d-flex align-items-center"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="https://codepen.io/joshcordova/full/JjwjNjg"
+                class="btn btn-sm btn-secondary d-flex align-items-center"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+
+          <div class="card">
+            <img
+              src="./images/project-documentation.png"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold fs-5">
+                Documentation Page
+              </h5>
+              <p class="card-text text-center">
+                I made this webpage to practice making two column layout using
+                CSS Grid.
+              </p>
+            </div>
+            <div class="card-body d-flex gap-2 justify-content-center">
+              <a
+                href="https://codepen.io/joshcordova/pen/vYvYjLP"
+                class="btn btn-sm btn-primary d-flex align-items-center"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="https://codepen.io/joshcordova/full/vYvYjLP"
+                class="btn btn-sm btn-secondary d-flex align-items-center"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+
+          <div class="card">
+            <img src="./images/project-tribute.png" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold fs-5">Tribute Page</h5>
+              <p class="card-text text-center">
+                I made this webpage to pay tribute to my favorite basketball
+                player.
+              </p>
+            </div>
+            <div class="card-body d-flex gap-2 justify-content-center">
+              <a
+                href="https://codepen.io/joshcordova/pen/bGRGYRN"
+                class="btn btn-sm btn-primary d-flex align-items-center"
+                target="_blank"
+                >View Code</a
+              >
+              <a
+                href="https://codepen.io/joshcordova/full/bGRGYRN"
+                class="btn btn-sm btn-secondary d-flex align-items-center"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
           </div>
         </div>
-        <!-- Contact Form Column -->
-        <div class="col-12 col-md-6 mt-5 mt-md-0">
-          <p class="fw-bold fs-3">Get In Touch</p>
-          <form action="">
-            <!-- First & Last Name Row -->
-            <div class="row mt-3">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </section>
+
+      <!-- Tools Section -->
+      <section id="tools" class="pb-5 pt-md-4 px-0 p-lg-5 mb-5">
+        <h1 class="fs-3 fw-bold mb-4 text-decoration-underline">Tools</h1>
+        <div class="d-flex flex-wrap flex-column flex-md-row gap-2">
+          <!-- HTML -->
+
+          <div class="card bg-dark text-white px-md-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">HTML</h5>
+              <i class="fa-brands fa-html5"></i>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">CSS</h5>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+          </div>
+          <!-- Bootstrap -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">Bootstrap</h5>
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+          </div>
+          <!-- Javascript -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">JavaScript</h5>
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+          </div>
+          <!-- React -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">React</h5>
+              <i class="fa-brands fa-react"></i>
+            </div>
+          </div>
+          <!-- NodeJS -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">NodeJS</h5>
+              <i class="fa-brands fa-node"></i>
+            </div>
+          </div>
+          <!-- Git -->
+          <div class="card bg-dark text-white px-lg-3">
+            <div
+              class="card-body d-flex justify-content-center align-items-center gap-3 pt-4"
+            >
+              <h5 class="fw-bold">Git</h5>
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="pb-5 pt-md-4 px-0 p-lg-5 mb-5">
+        <div class="row">
+          <!-- Text Column -->
+          <div class="col-12 col-md-6">
+            <p class="fw-bold fs-3">Contact Me</p>
+            <div class="d-flex flex-column mt-4">
+              <!-- Address -->
+              <div class="d-flex gap-3 align-items-center mb-4">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Olongapo City</p>
               </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              <!-- Email -->
+              <div class="d-flex gap-3 align-items-center mb-4">
+                <i class="fa-solid fa-envelope"></i>
+                <p>cordovajoshuam118@gmail.com</p>
               </div>
             </div>
-            <!-- Subject Row -->
-            <div class="row mt-2">
-              <div class="col">
-                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
-                  aria-label="Subject">
-              </div>
+            <!-- Phone -->
+            <div class="d-flex gap-3 align-items-center">
+              <i class="fa-solid fa-phone"></i>
+              <p>09263191103</p>
             </div>
-            <!-- Message Row -->
-            <div class="row mt-2">
-              <div class="col">
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+          <!-- Contact Form Column -->
+          <div class="col-12 col-md-6 mt-5 mt-md-0">
+            <p class="fw-bold fs-3">Get In Touch</p>
+            <form action="">
+              <!-- First & Last Name Row -->
+              <div class="row mt-3">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
               </div>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-dark text-white mt-3 d-block w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Submit
-            </button>
+              <!-- Subject Row -->
+              <div class="row mt-2">
+                <div class="col">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    class="form-control"
+                    placeholder="Subject"
+                    aria-label="Subject"
+                  />
+                </div>
+              </div>
+              <!-- Message Row -->
+              <div class="row mt-2">
+                <div class="col">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="form-control"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-dark text-white mt-3 d-block w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Submit
+              </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you for leaving a message</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Message Successfully Sent
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Thank you for leaving a message
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">Message Successfully Sent</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- <button class="btn btn-dark text-white mt-3 d-block w-100">Submit</button> -->
-          </form>
+              <!-- <button class="btn btn-dark text-white mt-3 d-block w-100">Submit</button> -->
+            </form>
+          </div>
         </div>
-      </div>
+      </section>
 
-    </section>
+      <footer class="py-4 text-center fw-light border-top border-bottom">
+        <div class="d-flex justify-content-center gap-3">
+          <a href="https://www.facebook.com/cordovajoshuam118/" target="_blank"
+            ><i class="bi bi-facebook text-dark"></i
+          ></a>
+          <a href="https://github.com/cordovajoshua" target="_blank"
+            ><i class="bi bi-github text-dark"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/joshuamcordova/" target="_blank"
+            ><i class="bi bi-linkedin text-dark"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
 
-    <footer class="py-4 text-center fw-light border-top border-bottom">
-      <div class="d-flex justify-content-center gap-3">
-        <a href="https://www.facebook.com/cordovajoshuam118/" target="_blank"><i
-            class="bi bi-facebook text-dark"></i></a>
-        <a href="https://github.com/cordovajoshua" target="_blank"><i class="bi bi-github text-dark"></i></a>
-        <a href="https://www.linkedin.com/in/joshuamcordova/" target="_blank"><i
-            class="bi bi-linkedin text-dark"></i></a>
-      </div>
-    </footer>
-  </div>
-
-
-  <!-- Bootstrap Script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
